@@ -1,0 +1,198 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "citizen@civiclink.ai",
+      "fullName": "John Doe",
+      "phone": "+15551112222",
+      "role": "CITIZEN",
+      "isSuspended": false,
+      "points": 120,
+      "address": "123 Main St, Springfield",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=120"
+    },
+    {
+      "id": 2,
+      "email": "worker@civiclink.ai",
+      "fullName": "Bob Builder",
+      "phone": "+15553334444",
+      "role": "SOCIAL_WORKER",
+      "isSuspended": false,
+      "department": "Sanitation & Roads",
+      "status": "AVAILABLE",
+      "rating": 4.8,
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&q=80&w=120"
+    },
+    {
+      "id": 3,
+      "email": "Abi.in",
+      "fullName": "Abi Manager",
+      "phone": "+15555551111",
+      "role": "MANAGER",
+      "isSuspended": false,
+      "department": "Public Works",
+      "assignedRegion": "Springfield East",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=120"
+    },
+    {
+      "id": 4,
+      "email": "Ram.in",
+      "fullName": "Ram Manager",
+      "phone": "+15555552222",
+      "role": "MANAGER",
+      "isSuspended": false,
+      "department": "Environmental Safety",
+      "assignedRegion": "Springfield West",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=120"
+    },
+    {
+      "id": 5,
+      "email": "vivek.in",
+      "fullName": "Vivek Manager",
+      "phone": "+15555553333",
+      "role": "MANAGER",
+      "isSuspended": false,
+      "department": "Municipal Development",
+      "assignedRegion": "Springfield Central",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=120"
+    },
+    {
+      "id": 6,
+      "email": "vivekananda.in",
+      "fullName": "Vivekananda Super Admin",
+      "phone": "+15557778888",
+      "role": "SUPER_ADMIN",
+      "isSuspended": false,
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=120"
+    },
+    {
+      "id": 7,
+      "email": "8653188562@civiclink.ai",
+      "fullName": "Asuru",
+      "phone": "8653188562",
+      "role": "CITIZEN",
+      "isSuspended": false,
+      "points": 0,
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=120"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "title": "Deep Pothole on Maple Avenue",
+      "description": "There is an extremely deep pothole near the intersection of Maple Ave and 4th St. It is a hazard to passing motorists and could easily damage tires or cause accidents.",
+      "category": "Potholes",
+      "priority": "HIGH",
+      "status": "SUBMITTED",
+      "latitude": 37.7749,
+      "longitude": -122.4194,
+      "address": "Maple Ave & 4th St, Springfield",
+      "citizenId": 1,
+      "assignedWorkerId": null,
+      "aiSeverity": "HIGH",
+      "aiDepartment": "Road Infrastructure",
+      "aiSummary": "Deep pothole reported at Maple Ave. Vehicle hazard.",
+      "aiSolution": "Fill with quick-setting cold-patch asphalt, compact thoroughly, and seal edges.",
+      "isDuplicate": false,
+      "images": [
+        "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&q=80&w=800"
+      ],
+      "beforeImage": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&q=80&w=800",
+      "afterImage": null,
+      "createdAt": "2026-07-05T10:30:00Z",
+      "resolvedAt": null
+    },
+    {
+      "id": 2,
+      "title": "Broken Streetlight near Park Entry",
+      "description": "The streetlight near the east entry of Springfield Public Park has been flickering and is now completely dark. This makes the footpath very dark at night.",
+      "category": "Streetlight",
+      "priority": "MEDIUM",
+      "status": "ASSIGNED",
+      "latitude": 37.7833,
+      "longitude": -122.4167,
+      "address": "East Entrance, Public Park",
+      "citizenId": 1,
+      "assignedWorkerId": 2,
+      "aiSeverity": "MEDIUM",
+      "aiDepartment": "Electrical Grid",
+      "aiSummary": "Broken streetlight causing poor lighting at park pathway.",
+      "aiSolution": "Replace the 150W HPS lamp with a modern, energy-efficient LED fixture and inspect wiring.",
+      "isDuplicate": false,
+      "images": [
+        "https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?auto=format&fit=crop&q=80&w=800"
+      ],
+      "beforeImage": "https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?auto=format&fit=crop&q=80&w=800",
+      "afterImage": null,
+      "createdAt": "2026-07-04T18:15:00Z",
+      "resolvedAt": null
+    },
+    {
+      "id": 3,
+      "title": "Illegal Garbage Dumping",
+      "description": "Someone dumped a large pile of construction debris and household garbage on the side of the road.",
+      "category": "Garbage",
+      "priority": "MEDIUM",
+      "status": "RESOLVED",
+      "latitude": 37.7794,
+      "longitude": -122.4224,
+      "address": "282 Industrial Parkway, Springfield",
+      "citizenId": 1,
+      "assignedWorkerId": 2,
+      "aiSeverity": "MEDIUM",
+      "aiDepartment": "Sanitation Department",
+      "aiSummary": "Construction waste illegally dumped on roadway shoulder.",
+      "aiSolution": "Deploy loader and heavy haul truck to collect and safely dispose of construction waste.",
+      "isDuplicate": false,
+      "images": [
+        "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&q=80&w=800"
+      ],
+      "beforeImage": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&q=80&w=800",
+      "afterImage": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&q=80&w=800",
+      "createdAt": "2026-07-03T09:00:00Z",
+      "resolvedAt": "2026-07-04T14:30:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "reportId": 2,
+      "senderId": 1,
+      "receiverId": 2,
+      "content": "Hello, when can we expect this streetlight to be repaired? It gets really dark around here.",
+      "createdAt": "2026-07-05T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "reportId": 2,
+      "senderId": 2,
+      "receiverId": 1,
+      "content": "Hi John! I have received the task assignment and will be coming down with the replacement bulb and ladder truck tomorrow morning around 9 AM.",
+      "createdAt": "2026-07-05T14:30:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 2,
+      "title": "New Task Assigned",
+      "message": "You have been assigned to repair 'Broken Streetlight near Park Entry'.",
+      "isRead": false,
+      "createdAt": "2026-07-04T18:16:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Report Resolved",
+      "message": "Your complaint 'Illegal Garbage Dumping' has been successfully resolved!",
+      "isRead": false,
+      "createdAt": "2026-07-04T14:31:00Z"
+    }
+  ],
+  "settings": {
+    "enableAiClustering": "true",
+    "autoRoutingEnabled": "true",
+    "severityThreshold": "HIGH",
+    "alertContacts": "sanitation@springfield.gov, safety@springfield.gov"
+  }
+}
